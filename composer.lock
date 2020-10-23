@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e8d1ca527a42af5f4a1389132a8e93ba",
+    "content-hash": "853aa16ef9555ec01b9f67d31dc8ad8d",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -3380,16 +3380,16 @@
         },
         {
             "name": "statamic/ssg",
-            "version": "dev-master",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/statamic/ssg.git",
-                "reference": "d22528f54af6542ad07e4733f3ad710b632e1dab"
+                "reference": "d82e7cd9194acffbb2ba420138166dfa1c8d13f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/statamic/ssg/zipball/d22528f54af6542ad07e4733f3ad710b632e1dab",
-                "reference": "d22528f54af6542ad07e4733f3ad710b632e1dab",
+                "url": "https://api.github.com/repos/statamic/ssg/zipball/d82e7cd9194acffbb2ba420138166dfa1c8d13f1",
+                "reference": "d82e7cd9194acffbb2ba420138166dfa1c8d13f1",
                 "shasum": ""
             },
             "require": {
@@ -3417,7 +3417,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Static site generator for Statamic 3.",
-            "time": "2020-10-10T14:29:40+00:00"
+            "time": "2020-08-21T21:18:00+00:00"
         },
         {
             "name": "statamic/stringy",
@@ -8246,9 +8246,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "statamic/ssg": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
