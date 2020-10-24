@@ -2,3 +2,7 @@ name: 'Connor Leech'
 super: true
 id: ef1fd78e-815e-4153-8251-f021a62d917d
 password_hash: $2y$10$kJvOL2A3cVx0WhIa6wNQtuAr7BsqVdPCHFtpSra4GYWn2qeS29xBi
+preferences:
+  assets:
+    assets:
+      mode: grid
