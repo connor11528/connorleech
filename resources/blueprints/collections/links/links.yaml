@@ -30,15 +30,16 @@ sections:
           icon: tags
           listable: true
       -
-        handle: assets
+        handle: hero_image
         field:
           mode: grid
           restrict: false
           allow_uploads: true
-          display: Assets
+          display: 'Hero Image'
           type: assets
           icon: assets
           listable: true
+          max_files: 1
   sidebar:
     display: Sidebar
     fields:

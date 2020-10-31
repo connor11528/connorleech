@@ -2,6 +2,9 @@
     {{ svg src="/assets/site/scratches" class="absolute text-gray-800 mt-8 top-0 left-0 w-20 hidden md:block" }}
     <article class="lg:py-32 max-w-2xl mx-auto">
         <h1>{{ title }}</h1>
+        <a href="{{ link }}" target="_blank">
+            <img class="rounded-xl" src="{{ hero_image }}" alt="">
+        </a>
         <div class="bg-gray-800 inline-block text-sm mb-16 pr-4 pl-16 -ml-16 uppercase tracking-widest text-white py-1 rounded-r-full">
             Published
             {{ if topics }}
@@ -11,6 +14,11 @@
         </div>
         <div class="content">
             {{ content | widont }}
+        </div>
+        <div class="pt-5">
+            <a href="{{ link }}" target="_blank" class="bg-gray-800 hover:text-white font-bold py-4 px-8 rounded text-teal-light no-underline">
+                Read More
+            </a>
         </div>
     </article>
 </div>
