@@ -1,4 +1,5 @@
-data: {  }
+data:
+  alt: 'Jeff Bezos sells whatever he wants'
 size: 36374
 last_modified: 1603497024
 width: 800
