@@ -4,30 +4,31 @@ sections:
     display: Main
     fields:
       -
-        handle: title
-        field:
-          type: text
-          required: true
-          validate:
-            - required
-      -
         handle: link
         field:
           display: Link
           type: link
           icon: link
           listable: true
+          instructions: 'The link that this page is for'
       -
-        handle: content
+        handle: title
         field:
-          type: markdown
-          localizable: true
+          type: text
+          required: true
+          validate:
+            - required
+          display: Title
+          listable: hidden
+          input_type: text
       -
-        handle: taggable
+        handle: short_summary
         field:
-          display: Taggable
-          type: taggable
-          icon: tags
+          input_type: text
+          display: 'Short summary'
+          type: text
+          icon: text
+          instructions: 'a short description of what''s in this link'
           listable: true
       -
         handle: hero_image
@@ -40,6 +41,11 @@ sections:
           icon: assets
           listable: true
           max_files: 1
+      -
+        handle: content
+        field:
+          type: markdown
+          localizable: true
   sidebar:
     display: Sidebar
     fields:

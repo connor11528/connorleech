@@ -6,3 +6,10 @@ preferences:
   assets:
     assets:
       mode: grid
+  collections:
+    links:
+      columns:
+        - title
+        - hero_image
+        - date
+        - topics

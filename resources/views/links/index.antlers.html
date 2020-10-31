@@ -6,10 +6,9 @@
             {{ content | widont }}
         </header>
 
-        {{ collection:links as="links" paginate="10" }}
+        {{ collection:links as="links" paginate="10" sort="date:desc" }}
         {{ if no_results }}
-        <h2 class="text-3xl italic tracking-tight">Feel the rhythm! Feel the rhyme! Get on up, it's writing time! Cool
-            writings!</h2>
+        <h2 class="text-3xl italic tracking-tight">I haven't published any links yet!</h2>
         {{ /if }}
 
         {{ links }}
@@ -17,6 +16,7 @@
             <a href="{{ url }}" class="text-lg hover:text-teal tracking-tight leading-tight font-bold">
                 {{ title | widont }}
             </a> - <i>shared on {{ date format="M j, Y" }}</i>
+            <p class="ml-24">{{ short_summary }}</p>
         </div>
         {{ /links }}
 
