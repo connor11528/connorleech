@@ -5,7 +5,7 @@ updated_at: 1610856023
 template: page
 id: 62136fa2-9e5c-4c38-a894-a2753f02f5ff
 ---
-Hi my name's Connor. I work as a Full Stack Developer with PHP, Laravel, SQL and Javascript. I live in scenic Alameda, CA near Oakland and San Francisco 🇺🇸. In previous lifes I was an agency technical recruiter and a door to door fundraiser (salesperson). I'm Olive's Dad and Victoria's husband
+Hi my name's Connor. I work as a full stack software developer building for the web. I live in scenic Alameda, CA near Oakland and San Francisco 🇺🇸. In previous lives I was an agency technical recruiter and a door to door fundraiser. I'm Olive's Dad and Victoria's husband
 
 I'm originally from Marin County, northern part of the Bay Area and graduated from UC Santa Barbara with a degree in Political Science. I learned to code after college and am fortunate to have traveled to eighteen countries so far.
 

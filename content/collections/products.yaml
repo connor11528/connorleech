@@ -1,0 +1,20 @@
+title: Products
+amp: true
+template: default
+layout: layout
+revisions: false
+sort_dir: desc
+date_behavior:
+  past: public
+  future: private
+structure:
+  root: false
+  tree:
+    -
+      entry: 4abe62bc-a7d8-4f8e-969f-5bf3f41e2842
+    -
+      entry: 8a96bbd5-6a5a-4587-8271-80b29cb386c6
+    -
+      entry: 6770e42b-6346-4d2f-a8f8-a343f33d23c3
+    -
+      entry: 09b440a0-824f-459b-995a-d3264b07c013

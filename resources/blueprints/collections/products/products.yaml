@@ -1,0 +1,70 @@
+title: Product
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+      -
+        handle: main_image
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: 'Main Image'
+          type: assets
+          icon: assets
+          listable: true
+      -
+        handle: name
+        field:
+          type: text
+          validate:
+            - required
+          display: 'Product Name'
+          listable: hidden
+          input_type: text
+          antlers: false
+      -
+        handle: product_url
+        field:
+          display: 'Product URL'
+          type: link
+          icon: link
+          listable: true
+      -
+        handle: description
+        field:
+          type: markdown
+          localizable: true
+          display: 'Product''s Description'
+          listable: hidden
+          restrict: false
+          automatic_line_breaks: true
+          automatic_links: false
+          escape_markup: false
+          smartypants: false
+          antlers: false
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - products
+          max_items: 1
+          listable: false
+          localizable: true
