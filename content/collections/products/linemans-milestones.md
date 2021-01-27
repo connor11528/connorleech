@@ -1,8 +1,8 @@
 ---
-title: 'Lineman''s Milestones'
-name: 'Lineman''s Milestones'
+title: LINEMANSMILESTONES
+name: LINEMANSMILESTONES
 product_url: 'http://www.linemansmilestones.com/#/'
-description: 'Website for selling the Lineman''s Milestones Trade Award.'
+description: 'Website for selling the LINEMANSMILESTONES Trade Award.'
 updated_by: ef1fd78e-815e-4153-8251-f021a62d917d
 updated_at: 1610923133
 main_image:
