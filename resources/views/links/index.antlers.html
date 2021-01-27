@@ -11,14 +11,25 @@
         <h2 class="text-3xl italic tracking-tight">I haven't published any links yet!</h2>
         {{ /if }}
 
-        {{ links }}
-        <div class="mb-2">
-            <a href="{{ url }}" class="text-lg hover:text-teal tracking-tight leading-tight font-bold">
-                {{ title | widont }}
-            </a> - <i>shared on {{ date format="M j, Y" }}</i>
-            <p class="ml-24">{{ short_summary }}</p>
+        <div class="flex flex-col">
+            {{ links }}
+
+            <div class="flex-auto items-center justify-center w-1/2 mb-2 mt-12 rounded-lg shadow-xl">
+                <div class="p-6">
+                    <a href="{{ link }}" target="_blank" class="mb-2">
+                        <img class="object-scale-down h-48 w-full" src="{{ hero_image }}">
+                    </a>
+                    <a href="{{ permalink }}" class="text-lg hover:text-teal tracking-tight leading-tight font-bold">
+                        {{ title | widont }}
+                    </a>
+                    <p><i>shared on {{ date format="M j, Y" }}</i></p>
+                    <p>{{ short_summary }}</p>
+                </div>
+            </div>
+            
+            {{ /links }}
         </div>
-        {{ /links }}
+
 
         {{ paginate }}
         {{ if prev_page || next_page }}
