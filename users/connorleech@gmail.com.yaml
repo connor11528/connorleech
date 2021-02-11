@@ -13,3 +13,10 @@ preferences:
         - hero_image
         - date
         - topics
+    articles:
+      columns:
+        - title
+        - author
+        - slug
+        - date
+        - topics
