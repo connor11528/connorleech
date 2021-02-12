@@ -8,7 +8,7 @@
     </article>
 </div>
 <div class="container mx-auto px-4 md:px-12">
-    {{ collection:links as="links" paginate="25" sort="date:desc" }}
+    {{ collection:links as="links" paginate="24" }}
         <div class="flex flex-wrap -mx-1 lg:-mx-4">
 
             {{ if no_results }}
@@ -54,7 +54,7 @@
                     <a href="{{ prev_page }}" class="{{ ! prev_page ?= 'opacity-25' }}">
                         &larr; Back to the future
                     </a>
-                    <a href="{{ next_page }}">
+                    <a href="{{ next_page }}" class="{{ ! next_page ?= 'opacity-25' }}">
                         Forward to the past &rarr;
                     </a>
                 </div>
