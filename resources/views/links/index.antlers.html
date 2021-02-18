@@ -19,7 +19,7 @@
                 <!-- Column -->
                 <div class="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
 
-                    <!-- Article -->
+                    <!-- Link -->
                     <article class="overflow-hidden rounded-lg shadow-lg min-h-full">
 
                         <a href="{{ link }}" target="_blank">
@@ -41,25 +41,25 @@
                         </footer>
 
                     </article>
-                    <!-- END Article -->
+                    <!-- END Link-->
 
                 </div>
                 <!-- END Column -->
             {{ /links }}
         </div>
 
-        {{ paginate }}
-            {{ if prev_page || next_page }}
-                <div class="flex justify-between text-xl -mx-16 pt-16 font-bold">
-                    <a href="{{ prev_page }}" class="{{ ! prev_page ?= 'opacity-25' }}">
-                        &larr; Back to the future
-                    </a>
-                    <a href="{{ next_page }}" class="{{ ! next_page ?= 'opacity-25' }}">
-                        Forward to the past &rarr;
-                    </a>
-                </div>
-            {{ /if }}
-        {{ /paginate }}
+    {{ paginate }}
+    {{ if prev_page || next_page }}
+    <div class="flex justify-between text-xl -mx-16 pt-16 font-bold">
+        <a href="{{ prev_page }}" class="{{ ! prev_page ?= 'opacity-25' }}">
+            &larr; Back to the future
+        </a>
+        <a href="{{ next_page }}" class="{{ ! next_page ?= 'opacity-25' }}">
+            Forward to the past &rarr;
+        </a>
+    </div>
+    {{ /if }}
+    {{ /paginate }}
 
     {{ /collection:links }}
 </div>
