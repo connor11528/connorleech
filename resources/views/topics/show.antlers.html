@@ -14,10 +14,6 @@
                 {{ title | widont }}
             </a>
         </h2>
-        <p class="text-gray-600">
-            <span class="text-gray-800 text-sm uppercase tracking-widest font-medium">{{ date }}</span> &mdash;
-            {{ excerpt | strip_tags | safe_truncate:160:...}}
-        </p>
     </div>
     {{ /entries }}
 </div>
