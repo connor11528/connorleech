@@ -20,3 +20,4 @@ preferences:
         - slug
         - date
         - topics
+      after_save: continue_editing
