@@ -1,5 +1,5 @@
 ---
-title: Products
+title: Work
 template: products/index
 updated_by: ef1fd78e-815e-4153-8251-f021a62d917d
 updated_at: 1610923401
