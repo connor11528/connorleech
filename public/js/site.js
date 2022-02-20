@@ -133,8 +133,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/connorleech/work/connorleech/resources/js/site.js */"./resources/js/site.js");
-module.exports = __webpack_require__(/*! /Users/connorleech/work/connorleech/resources/css/tailwind.css */"./resources/css/tailwind.css");
+__webpack_require__(/*! /Users/connorleech/code/connorleech/resources/js/site.js */"./resources/js/site.js");
+module.exports = __webpack_require__(/*! /Users/connorleech/code/connorleech/resources/css/tailwind.css */"./resources/css/tailwind.css");
 
 
 /***/ })
